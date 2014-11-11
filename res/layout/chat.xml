@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+       	android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        tools:context=".ChatActivity" />
+    
+    <LinearLayout 
+        android:id="@+id/ll_input_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/hint_input" />
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="@string/btn_sent"
+            android:onClick="onClick" />
+    </LinearLayout>
+        
+    <ListView
+        android:id="@+id/lv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_input_area"
+        android:layout_below="@id/tv_title"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="3dp" />
+
+</RelativeLayout>
