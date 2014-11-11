@@ -38,10 +38,10 @@ public class ChatCursorAdapter extends CursorAdapter {
         content.setText(HashTagController.check(cursor.getString(cursor.getColumnIndex(ChatDatabase.USER_COMMENTS))));
         if (viewType == TYPE_ME){
             content.setBackgroundResource(R.drawable.balloon_right);
-            content.setPadding(8, 0, 15, 0);
+            content.setPadding(30, 0, 45, 0);
         } else {
             content.setBackgroundResource(R.drawable.balloon_left);
-            content.setPadding(15, 0, 8, 0);
+            content.setPadding(45, 0, 30, 0);
         }
 
     }
