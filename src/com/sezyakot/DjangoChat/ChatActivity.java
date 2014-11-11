@@ -209,31 +209,29 @@ public class ChatActivity extends Activity implements AbsListView.OnScrollListen
     }
 
         private static Random generator = new Random();
+        // get sentences from internet. Don't mind the meaning...
         private static final String[] chatupLines = {
                 "I only have 3 months left to live, Let's have a party in your pants",
                 "Me. You. Now.",
                 "Want to see my extensive and assorted collection of cables?",
                 "Would you touch me so I can tell my friends I've been touched by an angel?",
                 "Are you accepting applications for your fan club",
-                "I miss my teddy bear. Would you sleep with me?",
+                "I miss my teddy bear. ",
                 "God was just showing off when He made you",
-                "I don't speak in tongues, but I kiss that way!",
-                "If you've lost your virginity, can I have the box it came in?",
+                "I don't speak fluent in English!",
+                "If you've lost your bag, can I have the box it came in?",
                 "There are 256 bones in your body! #Would you like another",
-                "Would you like to #stroke my lucky scrotum?",
+                "Would you like to #stroke my lucky head?",
                 "Is your father a thief? Because someone stole the stars from the sky and put them in your eyes",
-                "Sexist? What's wrong with being sexy?",
-                "Grr baby, Grr",
                 "I can implement sort algorithms #which run in N log N time",
                 "It takes 2 to tango, let us therefore copulate",
                 "I have a 10 year plan",
-                "Get down. Make Love.",
+                "Get down. ",
                 "J'adore vous, Mon petit poisson",
                 "Let us run away together, we'll take the M6 to Reading",
                 "You could be my precious croissant",
                 "I would eat a kitten #to be with you?",
                 "Your smile makes my member weep tears of joy",
-                "There is no such thing as a slut",
                 "Boogie on my bell",
                 "Let me configure #you home network?",
                 "I need sudo access to your slash var"
